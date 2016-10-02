@@ -1,0 +1,198 @@
+/* CSS */
+
+/* Header */
+
+.navbar {
+	background-color: #1a53ff;
+	margin-bottom: 0;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand h1 { /* Brand name */
+	color: white;
+	font-family: 'Playball', cursive;
+	font-size: 2em;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-right: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.navbar-nav>li {
+	text-transform: uppercase;
+}
+
+.navbar-nav>li:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+	font-size: 1.2em;
+}
+
+/* Dropdown mobile button */
+
+.navbar-toggle {
+	background-color: white;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: left;
+	margin-top: -40px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #0000e6;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #0000e6;
+}
+
+hr {
+	margin: 0;
+}
+
+/* End of Dropdown mobile button*/
+
+/* End of Header*/
+
+/* Jumbotron */
+.jumbotron {
+	height: 500px;
+	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+  	background-image: url(https://www.worksafe.qld.gov.au/__data/assets/image/0009/43785/Construction-site-in-the-sun.jpg);
+  	margin-bottom: 0;
+}
+
+.jumbotron .container {
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+
+.jumbotron .container p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 4em;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+/* End of Jumbatron*/
+
+
+/* sections "Apie mus", "Paslaugos", "Kontaktai" */ 
+
+h1.section-header {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: 600;;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.section-text {
+  font-size: 1.5em;
+  font-weight: 200;  
+  margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section {
+	border-bottom: 1px solid #dbdbdb; 
+}
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* End of sections "Apie mus", "Paslaugos", "Kontaktai" */
+
+/* "Apie mus" */
+
+#apie-mus {
+	width: 100%;
+}
+
+/* End of "Apie mus" */
+
+/* "Paslaugos" */
+
+#paslaugos {
+	width: 100%;
+}
+
+#no-margin {
+	margin-bottom: 0;
+}
+
+#no-bullet {
+	list-style: none;
+}
+
+li.section-text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Endo of "Paslaugos" */
+
+/* "Contacts" */
+
+.contacts {
+	font-size: 1.5em;
+	font-weight: 200;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* End of "Contacts" */
+
+/* Footer */
+
+.footer {
+	background-color: #1a53ff;
+	height: 50px;
+}
+/* End of Footer*/
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+
+	/* Jumbotron */
+	.jumbotron .container p {
+	font-size: 3em;
+	font-weight: 800;
+
+	/* Map */
+	#map {
+		width: 200px;
+		height: 150px;
+	}
+}
