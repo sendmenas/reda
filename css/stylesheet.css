@@ -137,7 +137,7 @@ h1.section-header {
 
 /* "Apie mus" */
 
-#apie-mus {
+#apiemus img {
 	width: 100%;
 }
 
@@ -145,8 +145,23 @@ h1.section-header {
 
 /* "Paslaugos" */
 
-#paslaugos {
+#paslaugos img {
 	width: 100%;
+}
+
+#paslaugos span {
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2px 4px;
+	background-color: lightgrey;
+	font-size: 12px;
+}
+
+.dropdownlist {
+	display: none;
+	color: black;
 }
 
 #no-margin {

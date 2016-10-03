@@ -21,9 +21,9 @@
 							<h1>Baltijos Reda</h1>
 						</div>
 						<ul class="nav navbar-nav">
-							<li class="hidden-xs"><a href="#apie-mus">apie mus</a></li>
-							<li class="hidden-xs"><a href="#paslaugos">paslaugos</a></li>
-							<li class="hidden-xs"><a href="#kontaktai">kontaktai</a></li>
+							<li id="link1" class="hidden-xs"><a href="#apiemus">apie mus</a></li>
+							<li id="link2" class="hidden-xs"><a href="#paslaugos">paslaugos</a></li>
+							<li id="link3" class="hidden-xs"><a href="#kontaktai">kontaktai</a></li>
 						</ul>
 
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -36,7 +36,7 @@
 
 					<div id="collapsable-nav" class="collapse navbar-collapse">
 						<ul id="nav-list" class="nav navbar-nav navbar-right">
-							<li class="visible-xs"><a class="text-center" href="#apie-mus">apie mus</a></li>
+							<li class="visible-xs"><a class="text-center" href="#apiemus">apie mus</a></li>
 							<hr class="visible-xs">
 							<li class="visible-xs"><a class="text-center" href="#paslaugos">paslaugos</a></li>
 							<hr class="visible-xs">
@@ -54,10 +54,10 @@
 		</div>
 	</div>
 
-	<div class="section">
+	<div class="section" id="apiemus">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6"><img id="apie-mus" src="http://www.proremodeler.com/sites/pr/files/styles/product-image/public/Happy_ConstructionWorkers.jpg?itok=UhIotAHe"></div>
+				<div class="col-md-6"><img src="http://www.proremodeler.com/sites/pr/files/styles/product-image/public/Happy_ConstructionWorkers.jpg?itok=UhIotAHe"></div>
         		<div class="col-md-6">
         			<h1 class="section-header">apie mus</h1>
         			<p class="section-text">Ilgametę patirtį sukaupėme per 25 metų darbo laiką įgyvendindami įvairius projektus lietuvoje ir užsienyje</p>
@@ -66,28 +66,49 @@
 		</div>
 	</div>
 
-	<div class="section">
+	<div class="section" id="paslaugos">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-        			<h1 class="section-header" id="paslaugos">paslaugos</h1>
+        			<h1 class="section-header">paslaugos</h1>
         			<ul>
-        				<li class="section-text">Remonto ir priežiūros darbai</li>
-        				<li class="section-text">Individualių namų statyba</li>
-        				<li class="section-text">Lengvosios statybinės technikos nuoma</li>
+        				<li class="section-text">
+        					<p>Remonto ir priežiūros darbai. <span>skaityti plačiau</span></p>
+        					<ul class="dropdownlist">
+        						<li>Bus papildyta...</li>
+        						<li>Bus papildyta...</li>
+        						<li>Bus papildyta...</li>
+        					</ul>
+        				</li>
+        				<li class="section-text">
+        					<p>Individualių namų statyba. <span>skaityti plačiau</span></p>
+        					<ul class="dropdownlist">
+        						<li>Bus papildyta...</li>
+        						<li>Bus papildyta...</li>
+        						<li>Bus papildyta...</li>
+        					</ul>
+        				</li>
+        				<li class="section-text">
+        					<p>Lengvosios statybinės technikos nuoma. <span>skaityti plačiau</span></p>
+        					<ul class="dropdownlist">
+        						<li>Bus papildyta...</li>
+        						<li>Bus papildyta...</li>
+        						<li>Bus papildyta...</li>
+        					</ul>
+        				</li>
         			</ul>
         		</div>
-        		<div class="col-md-6"><img id="paslaugos" src="http://www.relacom.com.pk/assets/img/construction-services-desc.jpg"></div>
+        		<div class="col-md-6"><img src="http://www.relacom.com.pk/assets/img/construction-services-desc.jpg"></div>
         	</div>
 		</div>
 	</div>
 
-	<div class="section">
+	<div class="section" id="kontaktai">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.3388646718863!2d25.3058642160404!3d54.70366107987784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd96a308671455%3A0xb176ef63eb0ec2bf!2sP.+Vilei%C5%A1io+g.+18%2C+Vilnius+10306%2C+Lietuva!5e0!3m2!1slt!2slv!4v1472452439155" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
         		<div class="col-md-6">
-        			<h1 class="section-header" id="kontaktai">kontaktai</h1>
+        			<h1 class="section-header">kontaktai</h1>
         			<p class="section-text" id="no-margin">Mus rasite:</p>
         			<ul id="no-bullet">
         				<li class="contacts">Adresas: Vilnius, P. Vileišio g. 18</li>
@@ -105,7 +126,6 @@
 		</div>
 	</div>
 </body>
-	<!-- jQuery (Bootstrap JS plugins depend on it) -->
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
