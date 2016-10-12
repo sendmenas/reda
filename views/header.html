@@ -1,0 +1,33 @@
+<nav id="header-nav" class="navbar navbar-default">
+	<div id="header-container">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<h1>Baltijos Reda</h1>
+				</div>
+				<ul class="nav navbar-nav">
+					<li id="link1" class="hidden-xs"><a ng-click="gotoId('apie-mus')">apie mus</a></li>
+					<li id="link2" class="hidden-xs"><a ng-click="gotoId('paslaugos')">paslaugos</a></li>
+					<li id="link3" class="hidden-xs"><a ng-click="gotoId('kontaktai')">kontaktai</a></li>
+				</ul>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li class="visible-xs"><a class="text-center" ng-click="gotoId('apie-mus')">apie mus</a></li>
+					<hr class="visible-xs">
+					<li class="visible-xs"><a class="text-center" ng-click="gotoId('paslaugos')">paslaugos</a></li>
+					<hr class="visible-xs">
+					<li class="visible-xs"><a class="text-center" ng-click="gotoId('kontaktai')">kontaktai</a></li>
+				</ul><!-- #nav-list -->
+			</div><!-- .collapse .navbar-collapse -->
+		</div>
+	</div><!-- .container -->
+</nav>
