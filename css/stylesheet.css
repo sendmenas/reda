@@ -84,7 +84,7 @@ hr {
 	background-repeat: no-repeat;
  	background-position: center;
  	background-size: cover;
-  	background-image: url(https://www.worksafe.qld.gov.au/__data/assets/image/0009/43785/Construction-site-in-the-sun.jpg);
+  	background-image: url("../img/Construction-site-in-the-sun-blur.jpg");
   	margin-bottom: 0;
 }
 
