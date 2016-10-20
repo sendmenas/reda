@@ -159,6 +159,12 @@ h1.section-header {
 	font-size: 12px;
 }
 
+.btn {
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid black;
+}
+
 .dropdownlist {
 	display: none;
 	color: black;
