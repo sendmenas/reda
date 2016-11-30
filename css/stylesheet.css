@@ -30,6 +30,8 @@
 
 .navbar-nav>li {
 	text-transform: uppercase;
+	width: 130px;
+	text-align: center;
 }
 
 .navbar-nav>li:hover {
@@ -205,6 +207,11 @@ li.section-text {
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
+	/* Navbar */
+	.navbar-nav>li {
+		width: 100%;
+		text-align: center;
+	}
 
 	/* Jumbotron */
 	.jumbotron .container p {
